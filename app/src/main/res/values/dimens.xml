@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="tablerow_padding">8dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="margin_end">8dp</dimen>
+    <dimen name="margin_right">8dp</dimen>
+    <dimen name="margin_bottom">32dp</dimen>
+    <dimen name="margin_left">8dp</dimen>
+    <dimen name="margin_start">8dp</dimen>
+    <dimen name="margin_bottom_button">88dp</dimen>
+</resources>

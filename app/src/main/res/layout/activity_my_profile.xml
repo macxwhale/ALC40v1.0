@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfile"
+   >
+
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="247dp"
+        android:layout_height="243dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/main_logo"
+        app:layout_constraintBottom_toTopOf="@+id/tvName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_main" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/maxwell_ambenge"
+        android:textColor="@color/IntroTitleColor"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
+
+    <TableLayout
+
+        android:id="@+id/tableLayout2"
+        android:layout_width="340dp"
+        android:layout_height="221dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:stretchColumns="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvName">
+
+
+        <TableRow>
+
+            <TextView
+                android:background="@drawable/btn_gradient_style"
+                android:padding="@dimen/tablerow_padding"
+                android:text="@string/track"
+                android:textColor="@color/tableTextColor"
+                android:textSize="@dimen/text_size" />
+
+
+            <TextView
+                android:gravity="start"
+                android:padding="@dimen/tablerow_padding"
+                android:text="@string/android_name"
+                android:textSize="@dimen/text_size" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="@drawable/btn_gradient_style"
+                android:padding="@dimen/tablerow_padding"
+                android:text="@string/country"
+                android:textColor="@color/tableTextColor"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:gravity="start"
+                android:padding="@dimen/tablerow_padding"
+                android:text="@string/kenya"
+                android:textSize="@dimen/text_size" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="@drawable/btn_gradient_style"
+                android:padding="@dimen/tablerow_padding"
+                android:text="@string/email"
+                android:textColor="@color/tableTextColor"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:gravity="start"
+                android:padding="@dimen/tablerow_padding"
+                android:text="@string/mail"
+                android:textSize="@dimen/text_size" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="@drawable/btn_gradient_style"
+                android:padding="@dimen/tablerow_padding"
+                android:text="@string/phone_no"
+                android:textColor="@color/tableTextColor"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:gravity="start"
+                android:padding="@dimen/tablerow_padding"
+                android:text="@string/phone"
+                android:textSize="@dimen/text_size" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="@drawable/btn_gradient_style"
+                android:padding="@dimen/tablerow_padding"
+                android:text="@string/slack_username"
+                android:textColor="@color/tableTextColor"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:gravity="start"
+                android:padding="@dimen/tablerow_padding"
+                android:text="@string/username"
+                android:textSize="@dimen/text_size" />
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>

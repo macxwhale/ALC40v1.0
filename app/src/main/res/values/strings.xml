@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ALC4.0</string>
+    <string name="title_activity_about_alc">About ALC</string>
+    <string name="track">Track</string>
+    <string name="android_name">Android</string>
+    <string name="country">Country</string>
+    <string name="kenya">Kenya</string>
+    <string name="email">Email</string>
+    <string name="mail">m.ambenge01@gmail.com</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="phone">+254708410428</string>
+    <string name="slack_username">Slack Username</string>
+    <!--suppress AndroidDomInspection -->
+    <string name="username">@Ambenge</string>
+    <string name="main_logo">Main Logo</string>
+    <string name="maxwell_ambenge">Maxwell Ambenge</string>
+    <string name="get_started">Get Started</string>
+    <string name="next">Next</string>
+    <string name="my_profile">My Profile</string>
+    <string name="about_alc">About ALC</string>
+    <string name="welcome_to_alc_4_0">Welcome to ALC 4.0</string>
+</resources>
