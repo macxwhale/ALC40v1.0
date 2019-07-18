@@ -56,9 +56,9 @@ public class IntroActivity extends AppCompatActivity {
 
         // Fill list screen
         final List<ScreenItem> mList = new ArrayList<>();
-        mList.add(new ScreenItem("Introduction", "We’re excited to announce the launch of Andela Learning Community 4.0 in partnership with Google and Pluralsight n partnership with Google and Pluralsight. The program will run for a period of 6 months starting from today 15th May 2019.  ", R.drawable.img1));
-        mList.add(new ScreenItem("Objective", "Google and Pluralsight are companies that share our commitment to scale technology talent and learning across Africa, and we’re happy to partner with them ALC 4.0 will bring Andela closer to achieving its bold mission of training 100,000 software engineers across Africa in 10 years.", R.drawable.img2));
-        mList.add(new ScreenItem("Andela Learning Community", "The Andela Learning Community is open to everyone interested in acquiring technical skills, regardless of their educational background. For this current track, participants will be advancing their skills in  Web development, Android development and Google Cloud technologies on Pluralsight. Learners who successfully complete the Google Scholarship Certification Program have the opportunity to go a step further to take a Google Certification exam, thereby certifying their competence and job readiness.", R.drawable.img3));
+        mList.add(new ScreenItem(getString(R.string.intro_title), getString(R.string.intro_desc), R.drawable.img1));
+        mList.add(new ScreenItem(getString(R.string.obj_title), getString(R.string.title_desc), R.drawable.img2));
+        mList.add(new ScreenItem(getString(R.string.alc), getString(R.string.alc_desc), R.drawable.img3));
 
         // Setup view pager
         screenPager = findViewById(R.id.screenViewPager);

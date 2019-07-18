@@ -19,4 +19,18 @@
     <string name="my_profile">My Profile</string>
     <string name="about_alc">About ALC</string>
     <string name="welcome_to_alc_4_0">Welcome to ALC 4.0</string>
+    <string name="intro_title">Introduction</string>
+    <string name="obj_title">Objective</string>
+    <string name="alc">Andela Learning Community</string>
+    <string name="intro_desc">We’re excited to announce the launch of Andela Learning Community 4.0
+        in partnership with Google and Pluralsight.
+        The program will run for a period of 6 months starting from today 15th May 2019.</string>
+    <string name="title_desc">Google and Pluralsight are companies that share our commitment to scale
+        technology talent and learning across Africa, and we’re happy to partner with them ALC 4.0 will
+        bring Andela closer to achieving its bold mission of training 100,000 software engineers across Africa in 10 years.</string>
+    <string name="alc_desc">The Andela Learning Community is open to everyone interested in acquiring
+        technical skills, regardless of their educational background. For this current track, participants
+        will be advancing their skills in  Web development, Android development and Google Cloud technologies
+        on Pluralsight. Learners who successfully complete the Google Scholarship Certification Program have the
+        opportunity to go a step further to take a Google Certification exam, thereby certifying their competence and job readiness.</string>
 </resources>

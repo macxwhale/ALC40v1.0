@@ -30,7 +30,8 @@
         android:layout_marginBottom="32dp"
         android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:drawableEnd="@drawable/ic_arrow_forward_black_24dp" />
 
     <android.support.design.widget.TabLayout
         app:tabBackground="@drawable/indicator_selector"
